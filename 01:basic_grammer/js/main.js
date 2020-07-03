@@ -1,14 +1,15 @@
 'use strict';
 
-// 定数 const
 // 変数 let
 
-let price = 150;
+let price = 500; // 500
 
-console.log(price * 140);
-console.log(price * 160);
+price += 100; // 600
 
-price = 170;
+price *= 2; // 1200
 
-console.log(price * 140);
-console.log(price * 160);
+price++; // 1201
+
+price--; //1200
+
+console.log(price)
