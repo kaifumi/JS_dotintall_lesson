@@ -1,15 +1,7 @@
 'use strict';
 
-// 変数 let
-
-let price = 500; // 500
-
-price += 100; // 600
-
-price *= 2; // 1200
-
-price++; // 1201
-
-price--; //1200
-
-console.log(price)
+console.log(typeof 'hello');
+console.log(typeof 5);
+console.log(typeof true);
+console.log(typeof undefined);
+console.log(typeof null);
