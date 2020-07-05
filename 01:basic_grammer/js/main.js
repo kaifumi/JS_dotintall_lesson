@@ -1,13 +1,13 @@
 'use strict';
 
-const price = 1200;
+const price = 79;
 
-console.log(price > 1000); // true
-console.log(price < 1000); // false
-console.log(price >= 1000); // true
-console.log(price <= 1000); // false
-console.log(price === 1000); // false
-console.log(price !== 1000); // true
+if (price >= 80) {
+  console.log('Great!');
+} else if(){
+  
+}
 
-console.log(Boolean(0));
-console.log(Boolean('hello'));
+else {
+  console.log('Badly')
+}
