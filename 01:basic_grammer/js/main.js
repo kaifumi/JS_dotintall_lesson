@@ -1,15 +1,6 @@
 'use strict';
 
-const signal = 'yellow'
-
-switch (signal) {
-  case 'red':
-    console.log('Stop!');
-    break;
-  case 'yellow':
-    console.log('Caution!');
-    break;
-  case 'blue':
-    console.log('Go!');
-    break;
+for (let i = 1; i <= 10; i++) {
+  // console.log('hello ' + i);
+  console.log(`${i}回目のhello`);
 }
