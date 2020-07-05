@@ -1,6 +1,8 @@
 'use strict';
 
-for (let i = 1; i <= 10; i++) {
-  // console.log('hello ' + i);
-  console.log(`${i}回目のhello`);
-}
+let hp = -50;
+
+do {
+  console.log(`残りHPは${hp}です`);
+  hp -= 15;
+} while (hp > 0)
