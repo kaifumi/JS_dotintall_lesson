@@ -1,5 +1,14 @@
 'use strict';
 
-const price = 90;
+const score = 60;
+const name = 'taguchi';
 
-price >= 85 ? console.log('Great') : console.log('だめ')
+if (score >= 50) {
+  if (name === 'taguchi') {
+    console.log('good job!');
+  }
+}
+
+if (score >= 50 && name === 'taguchi') {
+  console.log('yes')
+}
