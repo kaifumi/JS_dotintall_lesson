@@ -1,13 +1,5 @@
 'use strict';
 
-const price = 79;
+const price = 90;
 
-if (price >= 80) {
-  console.log('Great!');
-} else if(){
-  
-}
-
-else {
-  console.log('Badly')
-}
+price >= 85 ? console.log('Great') : console.log('だめ')
