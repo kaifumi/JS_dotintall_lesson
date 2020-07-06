@@ -1,12 +1,13 @@
-'use strict';
+"use strict";
 
-function showAd() {
-  console.log('aaaa');
+function sum(a, b, c) {
+  // console.log(a + b + c);
+  return a + b + c;
+  console.log(a + b + c);
 }
 
-showAd();
-console.log('bbb');
-showAd();
-showAd();
-showAd();
-showAd();
+// sum(1, 2, 3);
+// sum(4, 5, 6);
+
+const total = sum(1, 2, 3) + sum(4, 5, 6); // 18
+console.log(total);
